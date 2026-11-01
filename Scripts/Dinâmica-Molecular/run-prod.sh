@@ -15,7 +15,6 @@ module load gromacs/2026.0
 export OMP_NUM_THREADS="${SLURM_CPUS_PER_TASK}"
 export CUDA_VISIBLE_DEVICES=0
 
-%Linhas para executar a produção
 prefix=$1
 
 % pré-processamento: gerar arquivo de entrada, com a restrição (região de ancoragem)
