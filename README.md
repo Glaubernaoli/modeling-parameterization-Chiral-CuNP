@@ -1,4 +1,4 @@
-# Modelagem e parametrização de nanopartículas quirais de cobre (CuNPQ)
+# Modelagem e parametrização de nanopartículas quirais de cobre (CuNPQ) e Simulação por Dinâmica Molecular com a proteína Ab PBP2
 
 **Projeto de conclusão de curso | 2026**
 
