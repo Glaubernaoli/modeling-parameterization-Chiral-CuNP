@@ -8,7 +8,10 @@
  
 
  <h4 align="center"> 
-     In construction
+     Scripts de análises dos dados obtidos no Projeto de Conclusão do Curso. Incluem a parametrização das nanopartículas, os resultados de UV-Vis/ECD e os resultados computacionais analisados, como Rg, RMSD, RMSF e SASA.
+
+
+  > **Status:** projeto em desenvolvimento. Este repositório reúne estruturas e scripts de trabalho; ainda não constitui um fluxo de execução integralmente automatizado ou validado para reprodução independente.
 </h4>
 
 <h2 align="left"> 📈 Parametrização Cu NPQ/Cys </h2>
@@ -17,14 +20,14 @@
 
 Os arquivos `rots.dat` (Espectro de Linhas) e `spec.dat` (Espectro Alargado) utilizados para obter os gráficos de UV-Vis e ECD são obtidos por meio da linha de comando do script **caminho**.
 
-Notebook em python com as análises da otimização das nanopartículas por cálculos semi-empíricos com o xTB por meio dos gráficos de UV-Vis e ECD gerados com os arquivos  `adicionar nomes arquivos` de energia obtido a partir dos cálculos. Disponíveis na pasta: **caminho**
+Notebook em Python com as análises da otimização das nanopartículas por cálculos semi-empíricos com o xTB por meio dos gráficos de UV-Vis e ECD gerados com os arquivos  `adicionar nomes arquivos` de energia obtidos a partir dos cálculos. Disponíveis na pasta: **caminho**
 O notebook:
-- Obtem e le os dados dos arquivos `rots.dat` (Espectro de Linhas) e `spec.dat` (Espectro Alargado)
-- Transforma os valores numéricos inválidos das colunas em NaN, e realiza um `dropna` para removê-los
+- Obtém e lê os dados dos arquivos `rots.dat` (Espectro de Linhas) e `spec.dat` (Espectro Alargado)
+- Transforma os valores numéricos inválidos das colunas em NaN e realiza um `dropna` para removê-los
 - Gera os gráficos com os valores dos Espectros de Linhas  
 - Gera os gráficos com o Espectro Alargado
 
-Os gráficos de Espectros de Linhas são gerados a partir das transições sem ajustes por funções mateméticas, assim, são os dados da energia exata calculada em relação a força do oscilador para UV-Vis, ou força rotatória para ECD. Enquanto os gráficos do Espectro Alagardo, em que os dados são ajustados por meio de funções matemáticas de alargamento Gaussiano sobre os dados do espectro de linhas, fornecendo um espectro semelhante ao obtido experimental.
+Os gráficos de Espectros de Linhas são gerados a partir das transições sem ajustes por funções matemáticas; assim, são os dados da energia exata calculada em relação à força do oscilador para UV-Vis, ou força rotatória para ECD. Enquanto os gráficos do Espectro Alargado, em que os dados são ajustados por meio de funções matemáticas de alargamento Gaussiano sobre os dados do espectro de linhas, fornecendo um espectro semelhante ao obtido experimentalmente.
 
 
 <h2 align="left"> 📊 Dinâmica Molecular </h2>
